@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+      <section class="maintable" >
+          <div class="wrapper">
+      <div class="names">
+        <p>Account Settings</p>
+        <p>Company Settings</p>
+        <p>Documets</p>
+        <p>Billing</p>
+        <p>Nofitications</p>
+      </div>
+      <div class="data">
+        <form class="forms" action="action.php" method="POST">
+          <div class="form">
+            <label for="FirstName">First Name</label>
+            <input id="FirstName" type="text" />
+          </div>
+
+          <div class="form">
+            <label for="Lastname">Last Name</label>
+            <input id="Lastname" type="text" />
+          </div>
+
+          <div class="form">
+            <label for="phone">Phone Number</label>
+            <input id="phone" type="number" name="phone" />
+          </div>
+
+          <div class="form">
+            <label for="email">Email adress</label>
+            <input id="email" type="email" required name="email" />
+          </div>
+
+          <div class="form">
+            <label for="city">City</label>
+            <select name="city" id="city">
+              <option value="Moscow">Moscow</option>
+              <option value="Saint-Petersburg">Saint-Petersburg</option>
+              <option value="New York">New York</option>
+              <option value="Omsk">Omsk</option>
+            </select>
+          </div>
+
+          <div class="form">
+            <label for="state\country">State\Country</label>
+            <input id="state\country" type="text" name="state\country" />
+          </div>
+
+          <div class="form">
+            <label for="postcode">Postcode</label>
+            <input id="postcode" type="number" name="postcode" />
+          </div>
+
+          <div class="form">
+            <label for="country">Country</label>
+            <select name="country" id="country">
+              <option value="Russia">Russia</option>
+              <option value="Ukraine">Ukraine</option>
+              <option value="Belarus">Belarus</option>
+              <option value="Poland">Poland</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="button"><a href=""> Update</a></div>
+    </div>
+</div>
+</section>
+  </body>
+</html>

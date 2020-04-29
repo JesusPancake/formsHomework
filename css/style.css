@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.maintable {
+  font-family: "Open Sans", sans-serif;
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100px;
+  padding-left: 30px;
+}
+.names p {
+  padding-right: 30px;
+}
+
+.wrapper {
+  max-width: 1060px;
+  margin: auto;
+}
+
+/* .data {
+  margin: 40px 10px 20px 10px;
+} */
+
+.forms {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.form {
+  width: 500px;
+  padding: 0px 10px 30px 10px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.form select,
+input {
+  width: 500px;
+  height: 60px;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: #5978e6;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+label {
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 10px;
+  color: #545e7b;
+}
+
+.button {
+  height: 35px;
+  width: 80px;
+  padding: 23px 48px 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  border-radius: 8px;
+
+  color: #ffffff;
+  background: rgb(67, 101, 226);
+}
+.button a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
